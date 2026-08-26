@@ -4,7 +4,7 @@
   "description": "Node.js CI/CD demo for Azure App Service",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node init && node server.js"
   },
   "dependencies": {
     "express": "^4.19.2"
